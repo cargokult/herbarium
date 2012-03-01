@@ -1,4 +1,4 @@
-# About
+## About
 
 [Herbarium](http://cargokult.github.com/herbarium) explores image subreddits by creating a slideshow from the images posted. Best enjoyed fullscreen.
 
