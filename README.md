@@ -20,3 +20,5 @@
 * change the image with a delay of 20s
 * slideshow should loop indefinitely as long as there is at least 1 image
 
+## Tools used
+* https://github.com/reddit/reddit/wiki
