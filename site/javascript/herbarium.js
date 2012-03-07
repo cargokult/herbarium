@@ -12,7 +12,6 @@ $(document).ready(function() {
         r = 'AbandonedPorn+ArchitecturePorn+CountrysidePorn+DesignPorn+DessertPorn+FoodPorn+InfrastructurePorn+LighthousePorn+postapocalyptic+spaceporn+VillagePorn+wallpaper+wallpapers+EarthPorn';
     }
     var url = 'http://www.reddit.com/r/' + r + '/.json?jsonp=?';
-    console.log('Fetching ' + url);
     $.getJSON(url, function(json) {
         $.each(json.data.children, function(i,item){
             if (item.data.domain != 'flickr.com') {
@@ -20,7 +19,6 @@ $(document).ready(function() {
                     $canvas.css('height', $(document).height());     
                     $canvas.css('width', $(document).width());
 		            $canvas.css('background', 'url(' + item.data.url + ') no-repeat');
-                    $canvas.text(item.data.url);
                     next();
 	            });
 	            $canvas.fadeIn(800);
