@@ -12,13 +12,17 @@
 * Images should cover the screen, should look good on 1920x1080.
 
 ## Tasks
-* extract user posts from a /r's hot stream
+* extract user posts from a /r's hot stream **done**
 * filter only images that are posts, discard images that are too small
 * use a get param, multiple /r can be specified with +
-* use the image as background
+* use the image as background **done**
 * cover screen with the image for various browser size or full screen
-* change the image with a delay of 20s
+* change the image with a delay of 20s *done*
 * slideshow should loop indefinitely as long as there is at least 1 image
+
+## Open issues
+* How to extract images from flickr.com?
+* Images should be loaded in background, to avoid showing only a part
 
 ## Tools used
 * https://github.com/reddit/reddit/wiki
