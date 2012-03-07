@@ -23,7 +23,6 @@
 ## Open issues
 * How to extract images from flickr.com? See http://www.scrolldit.com/?r=/r/earthporn
 * Images should be loaded in background, to avoid showing only a part
-* Fix an image being shown several times
 
 ## Tools used
 * https://github.com/reddit/reddit/wiki

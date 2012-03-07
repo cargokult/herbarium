@@ -19,10 +19,10 @@ $(document).ready(function() {
                     $canvas.text(item.data.url);
                     next();
 	            });
+	            $canvas.fadeIn(800);
+	            $canvas.delay(12000);
+	            $canvas.fadeOut(400);
             }
-	        $canvas.fadeIn(800);
-	        $canvas.delay(12000);
-	        $canvas.fadeOut(400);
         });
     });
 });
