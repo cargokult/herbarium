@@ -14,11 +14,11 @@
 ## Tasks
 * extract user posts from a /r's hot stream **done**
 * filter only images that are posts, discard images that are too small
-* use a get param, multiple /r can be specified with +
+* use a get param, multiple /r can be specified with + **done**
 * use the image as background **done**
 * cover screen with the image for various browser size or full screen
-* change the image with a delay of 20s *done*
-* slideshow should loop indefinitely as long as there is at least 1 image
+* change the image with a delay of 12s **done**
+* slideshow should loop indefinitely **done**
 
 ## Open issues
 * How to extract images from flickr.com? See http://www.scrolldit.com/?r=/r/earthporn

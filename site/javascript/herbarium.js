@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    
+    (function($) {
+    $.fn.showtime = function() {
+
+    var $canvas = this;
     var rParam = getParameterByName('r');
     var r;
     if (rParam != '') {
@@ -9,7 +14,6 @@ $(document).ready(function() {
     var url = 'http://www.reddit.com/r/' + r + '/.json?jsonp=?';
     console.log('Fetching ' + url);
     $.getJSON(url, function(json) {
-        var $canvas = $('#wallpaper');
         $.each(json.data.children, function(i,item){
             if (item.data.domain != 'flickr.com') {
                 $canvas.queue(function(next) {
@@ -25,6 +29,14 @@ $(document).ready(function() {
             }
         });
     });
+    return this;
+
+    };
+    }(jQuery));
+
+
+$('#wallpaper').showtime();
+
 });
 
 function getParameterByName(name) {
