@@ -9,7 +9,7 @@ $(document).ready(function() {
     if (rParam != '') {
         r = rParam;
     } else {
-        r = 'AbandonedPorn+ArchitecturePorn+CountrysidePorn+DesignPorn+DessertPorn+FoodPorn+InfrastructurePorn+LighthousePorn+postapocalyptic+spaceporn+VillagePorn+wallpaper+wallpapers+EarthPorn';
+        r = 'AbandonedPorn+adporn+adrenalineporn+albumartporn+animalporn+ArchitecturePorn+bookporn+botanicalporn+cityporn+CountrysidePorn+DesignPorn+DessertPorn+destructionporn+EarthPorn+fireporn+FoodPorn+geekporn+historyporn+humanporn+InfrastructurePorn+LighthousePorn+machineporn+mapporn+militaryporn+movieposterporn+newsporn+postapocalyptic+quotesporn+roomporn+skyporn+spaceporn+VillagePorn+wallpaper+wallpapers+waterporn+windowshots';
     }
     var url = 'http://www.reddit.com/r/' + r + '/.json?jsonp=?';
     $.getJSON(url, function(json) {
